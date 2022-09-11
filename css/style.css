@@ -1,1 +1,107 @@
+/*사진을 배경 이미지로 만들기*/
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+  filter: brightness(50%);
+}
+
+/*footer 하단 고정*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  color: white;
+}
+
+#weather {
+  float: right;
+}
+
+#main {
+  width: 600px;
+  padding-top: 150px;
+  margin: 0 auto;
+}
+
+#clock {
+  font-size: 100px;
+  /* background-color: blue; */
+  text-align: center;
+  margin: 0;
+}
+
+#greeting {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.login-form {
+  /* background-color: aqua; */
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form button {
+  display: block;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 80px;
+  height: 50px;
+}
+.login-form button:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+}
+
+#todo-form {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+}
+
+#quote {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  /* background-color: black; */
+}
+
+.hidden {
+  display: none;
+}
 
